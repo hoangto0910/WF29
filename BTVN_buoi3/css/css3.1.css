@@ -1,0 +1,31 @@
+#divto{
+	width: 850px;
+	height: 147px;
+	font-family: Arial;
+	font-size: 14px;
+}
+.divnho{
+	width: 120px;
+	height: 100%;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+}
+.giatien{
+	color: red;
+	font-weight: bold;
+}
+.san_pham{
+	color: #E0AD79;
+	text-decoration: none;
+}
+.giatien:hover{
+	color: blue;
+}
+.san_pham:hover{
+	color: green;
+}
+.divnho:hover{
+	border: 2px solid pink;
+}

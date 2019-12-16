@@ -1,0 +1,29 @@
+#divto{
+	width: 800px;
+	height: 99px;
+	background-image: url(../unit3+4/back.png);
+}
+.divnho{
+	width: 180px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+}
+span{
+	padding-left: 16px;
+}
+.lienhe{
+	text-decoration: none;
+	font-weight: bold;
+}
+.lienhe:hover{
+	text-decoration: underline;
+	color: blue;
+}
+._1{
+	
+	text-decoration: none;
+}
+._1:hover{
+	color: blue;
+}
