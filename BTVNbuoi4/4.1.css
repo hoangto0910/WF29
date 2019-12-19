@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Tahoma;
+}
+/*HEADER*/
+#header{
+	width: 100%;
+	height: 30px;
+}
+a{
+	text-decoration: none;
+}
+#zent{
+	float: left;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 40px;
+}
+#zent:hover a{
+	font-size: 31px;
+	color: red;
+}
+#button div{
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 30px;
+}
+#button div:hover{
+	border: 1px solid gray;
+	background-color: #DDDDDD;
+	border-radius: 10px;
+}
+#button{
+	width: 500px;
+	height: 100%;
+	margin-left: 894px;
+}
+._1{
+	float: left;
+	text-decoration: none;
+}
+/*CONTENT*/
+#content{
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 100%;
+	height: 721px;
+}
+/*LEFT*/
+#left{
+	width: 179px;
+	height: 100%;
+	float: left;
+}
+#left>ul>li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+#left>ul>li>a{
+	text-decoration: none;
+}
+/*RIGHT*/
+#right{
+	width: 980px;
+	height: 100%;
+	margin-left: 179px;
+}
+#right1{
+	position: relative;
+	width: 291px;
+	height: 225px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	overflow: hidden;
+}
+#right1:hover{
+	border: 1px solid red;
+}
+.img{
+	width: 100%;
+	height: 85%;
+	position: absolute;
+	border-radius: 0px 0px 8px 8px;
+	transition:ease-in-out 0.5s;
+}
+.img:hover{
+	position: absolute;
+	transform: scale(1.2);
+    transition:ease-in-out 0.5s;
+}
+.tieude{
+    padding-bottom: 11px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+/*HOVER*/
+#content>#left>ul>li>a:hover{
+	text-decoration: underline;
+	color: red;
+	font-size: 16.5px;
+}
+._2{
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    width: 283px;
+    background-color: #444444;
+    overflow: hidden;
+    color: white;
+    height: 29px;
+    font-size: 12.5px;
+    padding-left: 8px;
+    opacity: 0.8;
+}
+._3{
+	border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    background-color: #444444;
+    color: white;
+    height: 40px;
+    font-size: 12.5px;
+    padding-left: 8px;
+    opacity: 0.8;
+}
+/*FOOTER*/
+#footer{
+	margin-top: 60px;
+	width: 100%;
+	height: 40px;
+	padding-left: 15px;
+	font-size: 14px;
+}
+.foot{
+	float: left;
+	list-style: none;
+	padding-right: 25px;
+	text-decoration: underline;
+	color: blue
+}
+.foot:hover{
+	color: red;
+	font-size: 14.5px;
+}
+.copy{
+	float: left;
+	padding-right: 22px;
+}
