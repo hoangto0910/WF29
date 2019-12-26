@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: relative;
+			animation-name: ChangeColor;
+			animation-duration: 2s;
+			animation-direction: alternate;
+			animation-timing-function: ease-in-out;
+		}
+		@keyframes ChangeColor{
+			0%{top:0;left:0;}
+			25%{top:0;left:150px; background-color: yellow}
+			50%{top:150px;left:150px; background-color: lavender;}
+			75%{top:150px;left:0; background-color: green}
+			100%{top: 0;left: 0; background-color: blue}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bg</title>
+	<style>
+	#header{
+		width: 100%;
+		height: 30px;
+		background-color: blue;
+	}
+	#content{
+		width: 100%;
+		height: 300px;
+	}
+	#left{
+		width: 30%;
+		height: 100%;
+		background: yellow;
+		float: left;
+	}
+	#main{
+		width: 40%;
+		height: 100%;
+		background: pink;
+		float: left;
+	}
+	#right{
+		width: 30%;
+		height: 100%;
+		background-color: lavender;
+		float: right;
+	}
+	#footer{
+		width: 100%;
+		height: 30px;
+		background-color: black;
+		color: white;
+	}
+	@media screen and (max-width: 320px){
+		#left, #right, #main{
+			width: 100%;
+		}
+	}
+	@media screen and (min-width: 321px) and (max-width: 767px){
+		#right{
+			display: none;
+		}
+		#main{
+			width: 70%;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div id="header">Header</div>
+	<div id="content">
+		<div id="left">
+			Left
+		</div>
+		<div id="main">
+			main
+		</div>
+		<div id="right">
+			right
+		</div>
+	</div>
+	<div id="footer">
+		footer
+	</div>
+</body>
+</html>
