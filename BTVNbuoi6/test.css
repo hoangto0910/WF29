@@ -1,0 +1,320 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.container-all{
+	width: 100%;
+}
+.header{
+	width: 100%;
+	height: 100px;
+}
+.header ul{
+	height: 100%;
+	line-height: 100px;
+}
+.header ul li{
+	display: inline;
+	padding: 15px 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	list-style: none;
+}
+.header ul li a{
+	text-decoration: none;
+	color: gray;
+	padding: 20px;
+	font-weight: 700;
+}
+.header ul li a:hover{
+	color: orange;
+}
+.header-left{
+	width: 43%;
+	float: left;
+}
+.header-right{
+	width: 43%;
+	float: right;
+}
+.header-logo{
+	width: 14%;
+	float: left;
+}
+.header-logo img{
+	z-index: 1;
+	height: auto;
+	width: 90%;
+}
+.header-left ul{
+	float: right;
+}
+.header-right ul{
+	float: left;
+}
+.content{
+	width: 100%;
+	background-color: whitesmoke;
+}
+.content h1{
+	clear: both;
+	padding-top: 50px;
+	text-align: center;
+	color: #46b2a2;
+	font-size: 300%;
+	font-family: tahoma;
+}
+.content h3{
+	text-align: center;
+	margin-top: 20px;
+	color: gray;
+}
+.info{
+	width: 1300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+.info-child{
+	width: 30%;
+	height: 300px;
+	margin: 1%;
+	display: inline-block;
+}
+.top{
+	width: 100%;
+	height: 70%;
+	border: 5px solid white;
+}
+.bottom{
+	width: 100%;
+	height: 30%;
+	
+}
+.bg1{
+	background-image: url('img/1.png');
+	background-size: cover;
+}
+.bg2{
+	background-image: url('img/2.png');
+	background-size: cover;
+}
+.bg3{
+	background-image: url('img/3.png');
+	background-size: cover;
+}
+.bg4{
+	background-image: url('img/4.png');
+	background-size: cover;
+}
+.bg5{
+	background-image: url('img/5.png');
+	background-size: cover;
+}
+.bg6{
+	background-image: url('img/6.png');
+	background-size: cover;
+}
+.bottom h3{
+	text-align:left !important;
+	margin-top: 0px;
+	color: #46b2a2;
+}
+.bottom h4{
+	margin-top: 10px;
+	color: gray;
+}
+.bottom span{
+	float: right;
+	color: gray;
+}
+.about{
+	width: 100%;
+}
+.about-info{
+	width: 1300px;
+	margin: 0 auto;
+}
+.left{
+	width:59%;
+	float: left;
+	padding-bottom: 20px;
+}
+.right{
+	width:39%;
+	float: right;
+}
+.left h1{
+	color: #46b2a2;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: 700;
+}
+.left h3{
+	color: gray;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight:100;
+}
+.left font{
+	color: #46b2a2;
+	text-decoration: underline;
+}
+.right h1{
+	color: #46b2a2;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: 700;
+}
+.right h3{
+	color: gray;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight:100;
+}
+.right font{
+	color: #46b2a2;
+	text-decoration: underline;
+}
+.logo{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.logo-child{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 5%;
+	border-radius: 50%;
+	border:5px solid whitesmoke;
+	background-color: #46b2a2;
+}
+.logo-child i{
+	line-height: 50px;
+	margin-left: 10px;
+	font-size: 30px;
+	color: white;
+}
+.contact{
+	width: 100%;
+	background-color: #46b2a2;
+	clear: both;
+}
+.contact-info h1{
+	color: white;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: 700;
+	padding-top: 20px;
+}
+.contact-info h3{
+	color: white;
+	font-size: 16px;
+	font-weight:100;
+}
+.contact-info{
+	width: 1300px;
+	margin: 0 auto;
+}
+.group{
+	width: 100%;
+	margin-top: 20px;
+}
+.group span{
+	font-size: 20px;
+	color: white;
+}
+.group input{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+}
+.group textarea{
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;
+	border: none;
+}
+.group button{
+	width: 80px;
+	height: 40px;
+	margin-bottom: 50px;
+	background-color: #13951a;
+	color: white;
+	border-radius: 5px;
+	border:none;
+	
+}
+RESPONSIVE :
+
+@media only screen and (min-width: 960px) {
+    .info{
+        width: 90%;
+    }
+    .about-info{
+        width: 90%;
+    }
+    .contact-info{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .info{
+        width: 90%;
+    }
+    .info-child{
+        width: 46%;
+    }
+    .about-info{
+        width: 90%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .contact-info{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .info{
+        width: 90%;
+    }
+    .info-child{
+        width: 95%;
+    }
+    .about-info{
+        width: 90%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .contact-info{
+        width: 90%;
+    }
+    .header-left{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .header-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .header-logo img{
+        width: 20%;
+    }
+}
