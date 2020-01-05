@@ -17,6 +17,7 @@
 	margin: 0 auto;
 }
 #menu{
+	margin-top: 30px;
 	width: 100%;
 	height: 30px;
 	margin-bottom: 360px;
@@ -691,6 +692,7 @@ section{
 		background-color: white;
 		height: 50px;
 		margin-bottom: 125px;
+		margin-top: 0px;
 	}
 	#header{
 		background-size: 120%;
@@ -985,6 +987,9 @@ section{
 	#say_1 .h1sp_3{
 		left: 145px;
 		font-size: 55px !important;
+	}
+	#joneimg{
+		position: relative;
 	}
 	.jone{
 		display: none;

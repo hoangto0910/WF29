@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button onclick="Gotogoogle()">Go To google</button>
+	<button>Go to zent</button>
+	<script type="text/javascript">
+		function Gotogoogle () {
+			window.location = "https://google.com";
+		}
+		function GotoZent () {
+			window.location = "https://google.com";
+		}
+		var button = document.getElementsByTagName("button")[1];
+		button.addEventListener("click", GotoZent);
+		// var button = document.getElementsByTagName("button")[1];
+		// button.addEventListener("click", function Gotozent () {
+		// 	window.location = "https://zent.asia";
+		// })
+	</script>
+</body>
+</html>

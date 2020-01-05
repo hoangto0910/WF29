@@ -1,0 +1,33 @@
+ul>li{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 25px;
+	position: relative;
+}
+ul>li:hover{
+	cursor: pointer;
+}
+#tab1{
+	width: 850px;
+	height: 230px;
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+#tab2{
+	width: 850px;
+	height: 230px;
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+#tab3{
+	width: 850px;
+	height: 230px;
+	position: absolute;
+	top: 20px;
+	display: none;
+}
+/*#menu{
+	position: relative;
+}*/

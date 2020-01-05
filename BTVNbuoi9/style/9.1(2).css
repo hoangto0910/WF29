@@ -1,0 +1,20 @@
+
+.section{
+	float: left;
+	margin-left: 50px;
+	font-size: 20px;
+}
+.content{
+	width: 400px;
+	height: 80px;
+	position: absolute;
+	display: none;
+}
+.tab{
+	position: relative;
+	padding-right: 20px;
+	cursor: pointer;
+}
+.active{
+	display: block;
+}

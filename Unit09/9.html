@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<p id="thep1">
+			The p
+			<a href="">Hello</a>
+		</p>
+		<p>The p2</p>
+		<p id="thep3">
+			the p3
+		</p>
+	</div>
+	<script type="text/javascript">
+		var a = document.getElementsByTagName('a')[0];
+		a.parentNode.style.color = 'red';
+
+		var thep1 = document.getElementById('thep1');
+		thep1.nextElementSibling.style.color = 'green';
+
+		var thep3 = document.getElementById('thep3');
+		thep3.previousElementSibling.style.color = 'blue';
+	</script>
+</body>
+</html>

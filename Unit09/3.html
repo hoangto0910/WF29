@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>thuoc tinh</title>
+</head>
+<body>
+	<input type="text" name="" id="input_1" onclick="Clickme()" value="An vao day">
+	<script type="text/javascript">
+		function Clickme () {
+			var input_1 = document.getElementById('input_1');
+			var type = input_1.type;
+			if (type == "text") {
+				input_1.type = "button";
+			}else{
+				input_1.type = "text";
+			}
+		}
+	</script>
+</body>
+</html>
