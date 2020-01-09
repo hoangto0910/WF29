@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		span{
+			color: red;
+		}
+	</style>
+</head <body>
+	<form action="" name="frm">
+		Họ và tên <input type="text" placeholder="Nhâp họ tên" name="name"><span></span><br>
+		Email <input type="text" placeholder="Nhâp EMail" name="email"><span></span><br>
+		Số điện thoại <input type="text" placeholder="Nhâp sdt" name="sodienthoai"><span></span><br>
+		<button>Đăng ký</button>
+	</form>
+	<script type="text/javascript">
+		function validateEmail(email) {
+		    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		    return re.test(String(email).toLowerCase());
+		}
+		var button = document.getElementsByTagName('button')[0];
+		button.addEventListener('click', function  (event) {
+			event.preventDefault();
+			var name = document.frm.name;
+			var email = document.frm.email;
+			var sodienthoai = document.frm.sodienthoai;
+			if (name.value == "") {
+				name.nextElementSibling.innerHTML = "Nhap ho ten";
+			}else if (name.value.length <= 8){
+				name.nextElementSibling.innerHTML = "Ban phai nhap tren 8 ky tu";
+			}else {
+				name.nextElementSibling.innerHTML = "";
+			}
+			if (email.value == "") {
+				email.nextElementSibling.innerHTML = "Nhap du email"
+			}else if (!validateEmail(email.value)) {
+				email.nextElementSibling.innerHTML = "bạn chưa nhập đúng định dạng email";
+			}else {
+				email.nextElementSibling.innerHTML = "";
+			}
+		})
+	</script>
+</body>
+</html>

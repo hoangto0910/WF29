@@ -69,11 +69,18 @@
 	<div id="btn">
 		<button>Đăng ký</button>
 		<button>Xóa trắng</button>
+		<form name="frm_1">
+			<input type="text" placeholder="Nhập họ tên" name="name_1">
+		</form>
 	</div>
 	<script type="text/javascript">
 		var button_1 = document.getElementsByTagName('button')[0];
 		var button_2 = document.getElementsByTagName('button')[1];
+		var td = document.getElementsByTagName('td');
+		var tr = document.getElementsByTagName('tr');
 		button_1.addEventListener('click', function  () {
+			var name_1 = document.frm_1.name_1;
+			console.log(name_1)
 			var name = document.frm.name;
 			console.log(name)
 			var gender = document.frm.gender;
@@ -82,9 +89,9 @@
 			var pass = document.frm.pass;
 			var confirm = document.frm.confirm;
 			var span = document.getElementsByTagName('span');
-			if (name.value == "") {
-				// span[0].innerHTML = "Yêu cầu nhập đầy đủ họ tên";
-			}
+			// if (name.value == "") {
+			// 	span[0].innerHTML = "Yêu cầu nhập đầy đủ họ tên";
+			// }
 		})
 	</script>
 </body>
