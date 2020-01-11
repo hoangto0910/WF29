@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam reprehenderit nam quibusdam obcaecati et culpa hic incidunt perspiciatis quis aut!</p>
+	<button>CLick me</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').on('click', function  () {
+				$('p').css({'color' : 'blue'});
+			})
+			$('p').on('mouseenter', function (){
+				$(this).css({'background' : 'lightgray'});
+			})
+			$('p').on('mouseleave', function (){
+				$(this).css({'background' : 'red'});
+			})
+			$('p').on('click', function(){
+				$(this).css({'color' : 'lavender'});
+			})
+		});
+	</script>
+</body>
+</html>

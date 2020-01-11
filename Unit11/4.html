@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<style>
+		div{
+			border : 1px solid gray;
+		}
+		.active{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, facilis?</div>
+	<button id="prepend">Prepend</button>
+	<button id="before">before</button>
+	<button id="append">Append</button>
+	<button id="after">after</button>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, soluta.</p>
+	<button>AddClass</button>
+	<button>RemoveClass</button>
+	<button>toggleClass</button>
+	<br><br>
+	<button id="clickme">CLick me</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#prepend').on('click', function(){
+				$('div').prepend('Hello prepend');
+			})
+			$('#before').on('click', function(){
+				$('div').before('Hello before');
+			})
+			$('#append').on('click', function(){
+				$('div').append('Hello append');
+			})
+			$('#after').on('click', function(){
+				$('div').after('Hello after');
+			})
+			$('button').eq(4).on('click', function(){
+				$('p').addClass('active');
+			})
+			$('button').eq(5).on('click', function(){
+				$('p').removeClass('active');
+			})
+			$('button').eq(6).on('click', function(){
+				$('p').toggleClass('active');
+			})
+			// **********
+			$('#clickme').on('click', function(){
+				$(this).after("<button id='test'>new button</button>");
+			})
+			$('body').on('click','#test', function(){
+				alert('New button');
+			})
+		})
+	</script>
+</body>
+</html>

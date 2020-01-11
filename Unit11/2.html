@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, asperiores.</p>
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, unde!</div>
+	<input type="text" class="name">
+	<script type="text/javascript">
+		$('p').text("<a href='google.com'>The link </a>");
+		$('div').html("<a href='google.com'>The link </a>");
+		$('.name').val("12345");
+		$('p').css({'color' : 'red'});
+		$('div').css({'color' : 'blue', 'backgroundColor' : 'lavender'});
+		$('div').width("100px");
+		$('div').height("200px");
+		// $('p').remove();
+		// $('p').empty();
+	</script>
+</body>
+</html>
