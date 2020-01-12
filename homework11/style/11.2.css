@@ -1,0 +1,40 @@
+body{
+	background: url('../2020-01-12_124146.png');
+	color: white;
+}
+.content_sp{
+	cursor: pointer; 
+}
+#title{
+	width: 80%;
+	margin: 0 auto;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #3B3B3B;
+	border-radius: 10px;
+	background: #494949;
+}
+.content{
+	border: 1px solid #3B3B3B;
+	background: #494949;
+	position: relative;
+}
+.content div{
+	display: none;
+}
+.icon_1{
+	color: #C3E95F;
+}
+.content h1{
+	padding-left: 30px;
+}
+.icon_pre{
+	display: block !important;
+	position: absolute;
+	font-size: 35px;
+	left: -10px;
+	top: 20px;
+	cursor: pointer;
+}
