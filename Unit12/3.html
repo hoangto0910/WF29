@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../Unit11/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates consequatur nihil vero consectetur sequi maxime dolore est natus, totam libero quo obcaecati saepe porro, fugiat odit, provident ex sunt. Maxime non quas consequuntur assumenda eius cupiditate, officiis cum nisi veniam, natus debitis, vitae laborum. Odio accusantium dolore aut, quidem obcaecati optio culpa at iusto. Ut fuga esse tempore, similique accusamus modi dolorem cupiditate natus dolores, iste doloremque nisi doloribus cum ad, expedita tenetur nemo porro unde quo, deleniti fugit sit! Perspiciatis dignissimos voluptate officiis incidunt non similique! Vero pariatur ducimus voluptatibus, nihil repellat quod hic alias quam magnam. Culpa praesentium ut libero mollitia eius quasi sapiente dolorum consequatur incidunt, natus, doloribus voluptatum asperiores tenetur quod alias iste velit magnam, unde sit maxime, quam nesciunt. Odio quasi suscipit atque quia, odit. At sed vel sequi praesentium quibusdam, laboriosam. Veritatis enim, ad earum vel numquam culpa nobis, quaerat possimus at tempore ullam impedit, sit voluptatem placeat excepturi natus libero minus explicabo non cumque soluta fugiat nihil saepe cum laboriosam? Nostrum, laudantium! Necessitatibus ab, harum dolores recusandae deserunt dolor alias temporibus, obcaecati, similique totam qui dolorum repellendus. Repudiandae rerum voluptates unde explicabo deleniti quasi. Dolorum perferendis quibusdam deserunt a cupiditate! Esse, molestias, suscipit.</p>
+	<button>Show</button>
+	<button>hide</button>
+	<button>Toggle</button>
+	<button>Slide Down</button>
+	<button>Slide UP</button>
+	<button>Slide Toggle</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').eq(0).on('click', function(){
+				$('p').show();
+			})
+			$('button').eq(1).on('click', function(){
+				$('p').hide();
+			})
+			$('button').eq(2).on('click', function(){
+				$('p').toggle();
+			})
+			$('button').eq(3).on('click', function(){
+				$('p').slideDown();
+			})
+			$('button').eq(4).on('click', function(){
+				$('p').slideUp();
+			})
+			$('button').eq(5).on('click', function(){
+				$('p').slideToggle();
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../Unit11/js/jquery-3.4.1.min.js"></script>
+	<style>
+		div{
+			border: 1px solid gray;
+		}
+		div *{
+			display: block;
+			border: 1px solid gray;
+			padding : 5px;
+			margin: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div>div
+		<ul>ul
+			<li>li
+				<span>span</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// $('span').parent().css({'border-color':'red'});
+			// $('span').parents().css({'border-color':'red'});
+			// $('span').parents('ul').css({'border-color':'red'});
+			// $('span').parentsUntil('div').css({'border-color':'red'});
+
+			$('div').find('li').css({'border-color':'blue'});
+			$('div').children('ul').css({'border-color':'lavender'});
+		})
+	</script>
+</body>
+</html>

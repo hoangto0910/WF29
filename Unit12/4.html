@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="../Unit11/js/jquery-3.4.1.min.js"></script>
+	<style>
+		div{
+			width: 200px;
+			height: 200px;
+			margin-bottom: 20px;
+		}
+		#div_1{
+			background-color: red;
+			position: relative;
+		}
+		#div_2{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div id="div_1">Hello</div>
+	<div id="div_2"></div>
+	<button>FadeIn</button>
+	<button>fadeOut</button>
+	<button>fadeToggle</button>
+	<button>Animate</button>
+	<button>Stop</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').eq(0).on('click', function(){
+				$('#div_1').fadeIn(2000);
+				$('#div_2').fadeIn('slow');
+			})
+
+			$('button').eq(1).on('click', function(){
+				$('#div_1').fadeOut(2000);
+				$('#div_2').fadeOut('slow');
+			})
+
+			$('button').eq(2).on('click', function(){
+				$('#div_1').fadeToggle(2000);
+				$('#div_2').fadeToggle('slow');
+			})
+
+			$('button').eq(3).on('click', function(){
+				$('#div_1').animate({
+					left : '+=200px',
+					opacity : 0.5,
+					'background-color' : 'lavender',
+				},2000);
+			})
+			$('button').eq(4).on('click', function(){
+				$('#div_1').stop();
+			})
+		})
+	</script>
+</body>
+</html>
