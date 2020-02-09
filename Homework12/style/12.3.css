@@ -1,0 +1,38 @@
+#container {
+	background-color: #0373A1;
+	color: white;
+	font-size: 20px;
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+}
+#container .menu_bar{
+	display: inline-block;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.menuslide_1{
+	position: relative;
+}
+#slide_services{
+	position: absolute;
+	display: none;
+	width: 200px;
+	height: 160px;
+	background-color: #0373A1;
+}
+.color{
+	background: #FB9D05;
+	width: 100%;
+	height: 5px;
+}
+.menuslide_2{
+	position: relative;
+}
+#slide_s2{
+	position: absolute;
+	display: none;
+	width: 200px;
+	height: 70px;
+	background-color: #0373A1;
+}

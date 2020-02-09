@@ -1,0 +1,490 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Helvetica,Arial,freesans,sans-serif;
+	font-size: 18px;
+}
+#top_banner{
+	margin-top: 30px;
+	width: 100%;
+	height: 35px;
+}
+#topbanner_1{
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	line-height: 35px;
+}
+#topbanner_1 img{
+	float: left;
+	height: 100%;
+}
+#demo_banner{
+	float: right;
+}
+#demo_banner div{
+	float: left;
+	margin-left: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid gray;
+	border-radius: 15px;
+}
+#dload{
+	background: #0781E3;
+	color: white;
+}
+/*BANNER*/
+#banner{
+	width: 100%;
+	height: 578px;
+	background: #F9FAFF;
+	margin-top: 20px;
+}
+#banner_1{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.p_size{
+	font-size: 35px;
+	padding-top: 90px;
+	margin: 0;
+}
+.h1_size{
+	font-size: 75px;
+	margin: 0;
+}
+#banner_1 div {
+	border: 1px solid gray;
+	border-radius: 15px;
+	color: white;
+	width: 13%;
+	height: 40px;
+	line-height: 40px;
+	background: #0781E3;
+	display: inline-block;
+}
+#banner img{
+	width: 100%;
+	height: 300px;
+}
+/*Content_1*/
+#content_1{
+	width: 100%;
+	height: 735px;
+	background-color: #E6FCFF;
+}
+#dowload{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+#dowload img{
+	width: 35%;
+	padding-top: 85px;
+	float: left;
+}
+#content_ebook{
+	width: 60%;
+	float: right;
+	margin-left: 5%;
+}
+
+#ebook_lorem{
+	margin-bottom: 60px;
+}
+.p_icon{
+	margin-right: 2%;
+	color: #40C4FF;
+}
+#content_ebook p{
+	margin-bottom: 12px;
+}
+.p_sizesp{
+	margin-bottom: 0 !important;
+}
+#content_ebook div{
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 15px;
+	color: white;
+	width: 24.5%;
+	height: 40px;
+	line-height: 40px;
+	background: #0781E3;
+	display: inline-block;
+	margin-top: 90px;
+}
+#demo_sp{
+	background-color: #E6FCFF !important;
+	color: black !important;
+}
+/*Content_2*/
+#content_2{
+	width: 100%;
+	height: 780px;
+	text-align: center;
+}
+#try_it{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.tryit_1{
+	height: 420px;
+	border: 1px solid #D3E0E0;
+	margin-top: 60px;
+	float: left;
+	width: 20%;
+	margin-left: 3.1%;
+	margin-right: 3.1%;
+}
+.tryit_1 img{
+	padding-top: 50px;
+}
+.tryit_sp{
+	margin-left: 0.4% !important;
+}
+.tryit_sp2{
+	margin-right: 0 !important;
+}
+.btn_tryit{
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+	display: inline-block;
+	padding-left: 12%;
+	padding-right: 12%;
+	height: 40px;
+	line-height: 40px;
+}
+/*Content_3*/
+#content_3{
+	width: 100%;
+	height: 690px;
+	background-color: #E6FCFF;
+}
+#container_Buy{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+#containerbuy_1{
+	float: left;
+}
+#containerbuy_1 img{
+	float: left;
+	margin-right: 30px;
+}
+#containerbuy_1 hr{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.h1_sp{
+	padding-top: 90px;
+}
+.size_sp{
+	padding-top: 0 !important;
+}
+#containerbuy_1{
+	width: 60%;
+	height: 100%;
+}
+#containerbuy_2{
+	background-color: white;
+	float: right;
+	width: 35%;
+	height: 510px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	margin-top: 90px;
+	overflow: hidden;
+	box-shadow: 1px 20px 40px gray;
+}
+#containerbuy_2 h1{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 85px;
+	color: white;
+	background-color: #273C56;
+}
+/*#containerbuy_2 hr{
+	display: inline-block;
+	width: 60%;
+}*/
+#form_buy{
+	width: 70%;
+	margin: 0 auto;
+	color: gray;
+}
+#form_buy p{
+	margin-bottom: 5px;
+}
+#form_buy hr{
+	margin-bottom: 45px;
+}
+#hr_sp{
+	margin-bottom: 30px !important;
+}
+#form_buy div{
+	text-align: center;
+	color: white;
+	background-color: #0887ED;
+	width: 100%;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	border-radius: 15px;
+	display: inline-block;
+	height: 65px;
+	line-height: 65px;
+}
+/*content_4;*/
+#content_4{
+	width: 100%;
+	height: 1090px;
+}
+#container_Custom{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#containercustom_1 h1{
+	padding-top: 90px;
+}
+#containercustom_2{
+	position: relative;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	margin-left: 3.4%;
+	margin-right: 3.4%;
+	margin-top: 90px;
+	width: 40%;
+	height: 300px;
+	border: 1px solid #F6F6F5;
+	border-radius: 5px;
+	box-shadow: 0 0 15px gray;
+	float: left;
+}
+#containercustom_2 div{
+	width: 11%;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 50px;
+	top: -32px;
+    left: 290px;
+}
+.matthew{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.p_custom{
+	margin-top: 70px;
+}
+/*Footer*/
+#footer{
+	background-color: #1A2A38;
+	text-align: center;
+}
+/*Responsive*/
+/*Mobile*/
+@media screen and (max-width: 480px){
+	#demo_banner{
+		display: none;
+	}
+	#banner{
+		height: 512px;
+	}
+	#topbanner_1 img{
+		margin-left: 110px;
+	}
+	.h1_size {
+    	font-size: 49px;
+	}	
+	.p_ban{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	#banner_1 div{
+		width: 48%;
+	}
+	#banner img{
+		height: 140px;
+	}
+	/*Content*/
+	#content_1{
+		height: 1212px;
+	}
+	#dowload img{
+		width: 100%;
+		float: none !important;
+	}
+	#content_ebook{
+		width: 100%;
+		float: none !important;
+		margin-left: 0 !important;
+	}
+	#content_ebook div{
+		width: 39%;
+	}
+	#ebook_lorem {
+    	margin-bottom: 40px !important;
+	}
+	#content_ebook div{
+		margin-top: 45px;
+	}
+	/*2*/
+	#content_2{
+		height: 2077px;
+	}
+	.tryit_1{
+		height: 380px;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	/*3*/
+	#content_3{
+		height: 1155px;
+	}
+	#containerbuy_1{
+		height: 480px !important;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	#containerbuy_1 div h1{
+		font-size: 30px;
+	}
+	.size_sp{
+		font-size: 30px;
+	}
+	#containerbuy_2{
+		width: 100%;
+		float: none;
+	}
+	/*4*/
+	#content_4{
+		height: 1853px;
+	}
+	#containercustom_2{
+		width: 100%;
+		padding-left: 0;
+	    padding-right: 0;
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	#containercustom_2 div {
+		width: 18%;
+		left: 160px;
+	}
+	#footer{
+		font-size: 13px;
+	}
+}
+/*ipad*/
+@media screen and (min-width: 481px) and (max-width: 700px){
+	#demo_banner{
+		display: none;
+	}
+	#banner{
+		height: 459px;
+	}
+	#topbanner_1 img{
+		margin-left: 195px;
+	}
+	.h1_size {
+    	font-size: 49px;
+	}	
+	.p_ban{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	#banner_1 div{
+		width: 48%;
+	}
+	#banner img{
+		height: 140px;
+	}
+	/*Content*/
+	#content_1{
+		height: 1334px;
+	}
+	#dowload img{
+		width: 100%;
+		float: none !important;
+	}
+	#content_ebook{
+		width: 100%;
+		float: none !important;
+		margin-left: 0 !important;
+	}
+	#content_ebook div{
+		width: 39%;
+	}
+	#ebook_lorem {
+    	margin-bottom: 40px !important;
+	}
+	#content_ebook div{
+		margin-top: 45px;
+	}
+	/*2*/
+	#content_2{
+		height: 1140px;
+	}
+	.tryit_1{
+		height: 380px;
+		width: 48%;
+		margin-left: 0.8% !important;
+		margin-right: 0.8% !important;
+	}
+	/*3*/
+	#content_3{
+		height: 1155px;
+	}
+	#containerbuy_1{
+		height: 480px !important;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	#containerbuy_1 div h1{
+		font-size: 30px;
+	}
+	.size_sp{
+		font-size: 30px;
+	}
+	#containerbuy_1 img {
+	    margin-right: 0px !important;
+	    margin-left: 70px;
+	}
+	#containerbuy_2{
+		width: 100%;
+		float: none;
+	}
+	/*4*/
+	#content_4{
+		height: 1853px;
+	}
+	#containercustom_2{
+		width: 100%;
+		padding-left: 0;
+	    padding-right: 0;
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	#containercustom_2 div {
+		width: 13%;
+    	left: 240px;
+	}
+	#footer{
+		font-size: 13px;
+	}
+}
