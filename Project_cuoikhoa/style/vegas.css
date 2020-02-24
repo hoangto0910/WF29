@@ -1,0 +1,27 @@
+
+body{}
+.text-center{text-align:center}
+/*.social_icons a {
+  color: #F2FFFF;
+  font-size: 29px;
+  margin-right: 45px;
+  background-color:#1abc9c;
+  padding: 15px;
+  border-radius: 29px;
+  height: 29px;
+  width: 29px;
+}
+.social_icons a:hover{background:#2ecc71}
+.social_icons a i.fa-facebook {
+  padding: 0 6px;
+}*/
+.name{}
+.name h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 65px;
+  margin-top: 140px;
+}
+.container_vegas{
+  width: 100%;
+  height: 477px;
+}
